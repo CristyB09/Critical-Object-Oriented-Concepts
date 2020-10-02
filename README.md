@@ -1,5 +1,5 @@
 
-Static Variables and Methods
+                         Static Variables and Methods
 
 So far, the variables and methods we have used have been instance variables and instance
 methods
@@ -11,7 +11,7 @@ to the application
 • E.G. in our Anytown project, we might want to keep track of the total number of
 buildings that can be generated 
 
-Static Variables and Methods
+                        Static Variables and Methods
 
 public class Building {
 private String address;
@@ -25,7 +25,7 @@ return numBuildings;
 Static (class) variable
 Static (class) method
 
-Scenario
+                        Scenario
 
 Add a static integer variable numBuildings to the Building class along with the static
 method getNumBuildings() that returns it. Also, update both constructor methods so that
@@ -38,7 +38,7 @@ make appropriate modifications to their constructors.
 form (e.g.)
 “There are a total of 6 buildings of which 4 are houses and 2 are shops” 
 
-Arrays and Loops
+                      Arrays and Loops
 
 • Arrays are ordered collections of elements – starting from index position zero
 Arrays and Loops
@@ -53,7 +53,7 @@ System.out.println(charArray[index]);
 }
 
 
-Scenario
+                    Scenario
 
 Revisit the main() method of the AnytownTest class and write code to declare an array of
 10 Building objects
@@ -66,7 +66,7 @@ that is 1000 times bigger than the door number. All shops are owned by “Anytow
 Centre”
 • Finally, provide a for loop to print out details of all 10 newly created buildings
 
-Other useful stuff…
+                 Other useful stuff…
 
 Generating random values
 • Receiving keyboard entry
@@ -77,7 +77,7 @@ import java.util.Scanner;
 Scanner input = new Scanner(System.in);
 String userInput = input.next(); // keyboard input
 
-Scenario
+                Scenario
 
 • Modify the code produced in the previous Scenario so that…
 i. the values for number of bedrooms, garage, number of employees and average turnover
@@ -99,8 +99,8 @@ form (e.g.)
 “There are a total of 6 buildings of which 4 are houses and 2 are shops” 
 
 
-                                 Objects and Classes
-                                 Key OOP Concepts
+                             Objects and Classes
+                             Key OOP Concepts
 
 The small application developed so far demonstrates some of the key concepts in objectoriented programming
 • Classes and objects – a class is a template from which objects are created. Each object
@@ -113,16 +113,16 @@ kept hidden (private) and can only be accessed from outside through setter and m
 methods
 
 
-Inheritance
-Key Java Concepts
+                           Inheritance
+                        Key Java Concepts
 
 This example introduces more key concepts of object-oriented programming
 • Inheritance sharing of attributes and methods between classes arranged in a hierarchy.
 • Sub classes will inherit all attributes and methods from their super class
 • Attributes and methods can be over-ridden if desired
 
-Classes Shop and House have inherited address and
-owner properties…
+           Classes Shop and House have inherited address and
+           owner properties…
 • …as well as their own individual properties
 • Polymorphism is the name given to the is-a relationship that a class hierarchy produces
 • E.g. A Shop is a Building and Shop objects have access to all of the methods of
